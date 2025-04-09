@@ -3,158 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ayush Singh Chauhan - Portfolio</title>
+    <title>Ocean Tours - Explore the Seas</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <div class="container header-container">
-            <div class="logo">Ayush Singh Chauhan</div>
-            <nav>
-                <ul>
-                    <li><a href="#hero">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">OceanTours</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
-    </header>
+    </nav>
 
     <!-- Hero Section -->
-    <section id="hero">
-        <div class="container hero-content">
-            <h1>Hi, I'm Ayush Singh Chauhan</h1>
-            <p>Nautical Science Student | AMET University</p>
-            <p>Passionate about maritime technology and navigation systems</p>
-            <a href="#contact" class="btn">Get In Touch</a>
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Discover Amazing Ocean Adventures</h1>
+            <p>Explore the wonders of the sea with our expert guides</p>
+            <a href="#features" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <img src="images/feature1.jpg" alt="Scuba Diving">
+                    <h3>Scuba Diving</h3>
+                    <p>Explore vibrant coral reefs and marine life with certified instructors.</p>
+                </div>
+                <div class="feature-card">
+                    <img src="images/feature2.jpg" alt="Boat Tours">
+                    <h3>Boat Tours</h3>
+                    <p>Enjoy scenic coastal views and dolphin spotting on our comfortable boats.</p>
+                </div>
+                <div class="feature-card">
+                    <img src="images/feature3.jpg" alt="Snorkeling">
+                    <h3>Snorkeling</h3>
+                    <p>Perfect for beginners to experience underwater beauty.</p>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="about">
+    <section id="about" class="about">
         <div class="container">
-            <h2>About Me</h2>
             <div class="about-content">
-                <div class="about-img">
-                    <img src="images/profile.jpg" alt="Ayush Singh Chauhan">
-                </div>
                 <div class="about-text">
-                    <h3>Who am I?</h3>
-                    <p>I'm a dedicated BSc Nautical Science student at AMET University with a strong passion for maritime technology and navigation systems. My journey in nautical science began with my fascination for ships and maritime operations.</p>
-                    <p>Currently in my third year, I've gained hands-on experience with navigation equipment, ship operations, and maritime safety protocols. My coursework has provided me with comprehensive knowledge of celestial navigation, electronic navigation systems, and ship stability.</p>
-                    <p>When I'm not studying, you can find me researching new maritime technologies, participating in sailing competitions, or volunteering at local maritime awareness programs.</p>
-                    <div class="education">
-                        <h3>Education</h3>
-                        <p><strong>BSc in Nautical Science</strong><br>
-                        AMET University<br>
-                        2021 - Present</p>
-                    </div>
+                    <h2>About Our Company</h2>
+                    <p>Founded in 2010, OceanTours has been providing unforgettable marine experiences for over a decade. Our team of marine biologists and experienced guides ensure both safety and education during all our tours.</p>
+                    <p>We're committed to sustainable tourism practices that protect our oceans while sharing their beauty with visitors.</p>
+                    <a href="#contact" class="btn">Contact Us</a>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills">
-        <div class="container">
-            <h2>My Skills</h2>
-            <div class="skills-container">
-                <div class="skill">
-                    <i class="fas fa-compass"></i>
-                    <h3>Celestial Navigation</h3>
-                    <p>Proficient in using stars, sun, and planets for position fixing at sea.</p>
-                </div>
-                <div class="skill">
-                    <i class="fas fa-ship"></i>
-                    <h3>Ship Operations</h3>
-                    <p>Knowledge of ship handling, stability, and cargo operations.</p>
-                </div>
-                <div class="skill">
-                    <i class="fas fa-radar"></i>
-                    <h3>Electronic Navigation</h3>
-                    <p>Experience with radar, GPS, ECDIS, and other electronic navigation systems.</p>
-                </div>
-                <div class="skill">
-                    <i class="fas fa-life-ring"></i>
-                    <h3>Maritime Safety</h3>
-                    <p>Training in firefighting, survival at sea, and emergency procedures.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Projects Section -->
-    <section id="projects">
-        <div class="container">
-            <h2>My Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-img">
-                        <img src="images/project1.jpg" alt="Navigation Simulator Project">
-                    </div>
-                    <div class="project-info">
-                        <h3>Navigation Simulator Project</h3>
-                        <p>Developed a bridge simulator scenario for collision avoidance in congested waters using ECDIS and radar systems.</p>
-                        <a href="#" class="btn">View Details</a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-img">
-                        <img src="images/project2.jpg" alt="Ship Stability Analysis">
-                    </div>
-                    <div class="project-info">
-                        <h3>Ship Stability Analysis</h3>
-                        <p>Conducted comprehensive analysis of ship stability under various loading conditions for different vessel types.</p>
-                        <a href="#" class="btn">View Details</a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-img">
-                        <img src="images/project3.jpg" alt="Maritime Safety Awareness">
-                    </div>
-                    <div class="project-info">
-                        <h3>Maritime Safety Awareness</h3>
-                        <p>Created educational materials and conducted workshops on maritime safety for local fishing communities.</p>
-                        <a href="#" class="btn">View Details</a>
-                    </div>
+                <div class="about-image">
+                    <img src="images/hero-bg.jpg" alt="Our Team">
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
+    <section id="contact" class="contact">
         <div class="container">
-            <h2>Contact Me</h2>
+            <h2>Get In Touch</h2>
             <div class="contact-container">
                 <div class="contact-info">
-                    <h3>Get In Touch</h3>
-                    <p><i class="fas fa-envelope"></i> ayush.chauhan@example.com</p>
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Ocean View, Coastal City</p>
                     <p><i class="fas fa-phone"></i> (123) 456-7890</p>
-                    <p><i class="fas fa-map-marker-alt"></i> AMET University, Chennai</p>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    <p><i class="fas fa-envelope"></i> info@oceantours.com</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
                     </div>
                 </div>
                 <div class="contact-form">
-                    <h3>Send Me a Message</h3>
                     <form>
                         <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" required>
+                            <input type="text" placeholder="Your Name" required>
                         </div>
                         <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
+                            <input type="email" placeholder="Your Email" required>
                         </div>
                         <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" required></textarea>
+                            <textarea placeholder="Your Message" required></textarea>
                         </div>
                         <button type="submit" class="btn">Send Message</button>
                     </form>
@@ -166,14 +111,39 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <div class="social-links">
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>OceanTours</h3>
+                    <p>Exploring the wonders of the sea since 2010</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <form>
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
             </div>
-            <p>&copy; 2023 Ayush Singh Chauhan. All rights reserved.</p>
-            <p>BSc Nautical Science - AMET University</p>
+            <div class="copyright">
+                <p>&copy; 2023 OceanTours. All rights reserved.</p>
+            </div>
         </div>
     </footer>
+
+    <script>
+        // Simple mobile menu toggle
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
